@@ -444,12 +444,6 @@ table.round-borders {
 #content-container {
   background: #fff;
   border-top: 1px solid #eaeaea;
-  -moz-border-radius-bottomright: 8px;
-  -moz-border-radius-bottomleft: 8px;
-  border-bottom-right-radius: 8px;
-  border-bottom-left-radius: 8px;
-  -webkit-border-bottom-left-radius: 8px;
-  -webkit-border-bottom-right-radius: 8px;
   borders: 2px solid #eaeaea;
   border-top: none;
   padding: 20px; }
@@ -563,15 +557,8 @@ input.ssh_project_url {
     color: #222222; }
 
 .top_bar {
-  margin-top: 50px;
   background-color: #F4F4F4;
   border-top: 1px solid #eaeaea;
-  -moz-border-radius-topright: 8px;
-  -moz-border-radius-topleft: 8px;
-  border-top-right-radius: 8px;
-  border-top-left-radius: 8px;
-  -webkit-border-top-left-radius: 8px;
-  -webkit-border-top-right-radius: 8px;
   box-shadow: 0 1px white inset, 0 -1px #dddddd inset;
   height: 43px;
   overflow: hidden;
