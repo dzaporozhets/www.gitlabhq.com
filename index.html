@@ -31,141 +31,143 @@
   <!-- All JavaScript at the bottom, except for Modernizr / Respond.
        Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
        For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
-	<script type="text/javascript" src="http://use.typekit.com/lvl4lxs.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 
 <body>
+    <div id="container" class="container_12 home-page tk-proxima-nova">
+        <header class="grid_12">
+        <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="http://blog.gitlabhq.com">Blog</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <a href="demo.html" class="button-grey">Try It</a>
+        </nav>
+        <h1 class="logo"><a href="/"></a></h1>
+        </header>
 
-  <div id="container" class="container_12 home-page tk-proxima-nova">
-    <header class="grid_12">
-			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="http://blog.gitlabhq.com">Blog</a></li>
-					<li><a href="contact.html">Contact Us</a></li>
-				</ul>
-				<a href="demo.html" class="button-grey">Try It</a>
-			</nav>
-			<h1 class="logo"><a href="#"></a></h1>
-    </header>
-		
-		<div class="slider clearfix">
-			<div class="grid_6">
-                            <h2>Self Hosted Git Management</h2>
+        <div class="slider clearfix">
+            <div class="grid_6">
+                <h2>Self Hosted Git Management</h2>
 
-                                <p>Fast, secure and stable solution based on Ruby on Rails &amp; Gitolite. Distributed under the MIT License. </p>
-                                <p>New release every month. </p>
+                <p>Fast, secure and stable solution based on Ruby on Rails &amp; Gitolite. Distributed under the MIT License. </p>
+                <p>New release every month. </p>
 
-				<p><a href="https://github.com/gitlabhq/gitlabhq" class="download">Download Now</a></p>
-			</div>
-			
-			<div class="grid_6">
-				<div class="screenshot">
-				<img src="./img/code_browse.png" width="464"/>	 
-				</div>
-			</div>
-		</div><!-- .slider -->
-		
-    <div id="main" role="main" class="clearfix">
-			<div class="grid_6 left">
-				<h3>Getting started instructions:</h3>
-				<div class="code">
-						<ol>
-							<li>login as user, install git &amp; generate ssh key</li>
-							<li>Install ruby 1.9.2</li>
-							<li>Install gitolite with umask 0007 and add your user to git group</li>
-							<li>logout &amp; login again</li>
-							<li>Clone &amp; setup gitlab (checkout project wiki on github)</li>
-							<li>Start server. Enjoy! </li>
-						</ol>
-				</div><!-- .code -->
-				
-				
-				<h3>News & Updates</h3>
-                                <div class="new">
-                                    <div class="date">
-                                        Jan
-                                        22
-                                    </div>
+                <p><a href="https://github.com/gitlabhq/gitlabhq" class="download">Download Now</a></p>
+            </div>
 
-                                    <div class="content">
-                                        <h4>Gitlab 2.1 released. Better UI</h4>
-                                        <p>Moving to minimalistic UI, better usability. Improved code review, post-receive hooks, deploy keys and much more in this release.</p>
-                                    </div>
-                                </div>
-                                <!-- .new -->
+            <div class="grid_6">
+                <div class="screenshot">
+                    <img src="./img/code_browse.png" width="464"/>	 
+                </div>
+            </div>
+        </div><!-- .slider -->
 
-                                <div class="new">
-                                    <div class="date">
-                                        Dec
-                                        22
-                                    </div>
-
-                                    <div class="content">
-                                        <h4>Gitlab 2.0 released. Now with gitolite</h4>
-                                        <p>We finally moved from gitosis to gitolite. It’ll allow us to make a lot of useful features in future. Also you'll be able to create merge requests with 2.0</p>
-                                    </div>
-                                </div>
-				<!-- .new -->
-				
-                                <div class="new">
-                                    <div class="date">
-                                        Nov
-                                        22
-                                    </div>
-
-                                    <div class="content">
-                                        <h4>Time for gitlab 1.2 release. New design!</h4>
-                                        <p>Finally we applyied professional design to gitlab. Checkout blog for screenshots or try demo. But its not only about desing. Checkout blog for more info </p>
-                                    </div>
-                                </div>
-				<!-- .new -->
-				
-
-			</div>
-			
-			<div class="grid_6">
-				<h3>Features</h3>
-				
-				<div class="feature issues margin">
-					<h4>Issues</h4>
-					<icon></icon>
-				</div>
-				
-				<div class="feature source ">
-					<h4>Manage Source</h4>
-					<icon></icon>
-				</div>
-				
-				<div class="key-management feature margin">
-					<h4>Key Management</h4>
-					<icon></icon>
-				</div>
-				
-				<div class="feature projects ">
-					<h4>Manage Projects</h4>
-					<icon></icon>
-				</div>
-				
-				<div class="more-features">
-					<span class="small-feature margin"><icon></icon> Merge Requests</span>
-					<span class="small-feature "><icon></icon> Comments</span>
-
-					<span class="small-feature margin"><icon></icon> Control Repository access</span>
-					<span class="small-feature "><icon></icon> Network Graph</span>
+        <div id="main" role="main" class="clearfix">
+            <div class="grid_6 left">
+                <h3>Getting started instructions:</h3>
+                <div class="code">
+                    <ol>
+                        <li>login as user, install git &amp; generate ssh key</li>
+                        <li>Install ruby 1.9.2</li>
+                        <li>Install gitolite with umask 0007 and add your user to git group</li>
+                        <li>logout &amp; login again</li>
+                        <li>Clone &amp; setup gitlab (checkout project wiki on github)</li>
+                        <li>Start server. Enjoy! </li>
+                    </ol>
+                </div><!-- .code -->
 
 
-					<span class="small-feature margin"><icon></icon> Code snippets</span>
-					<span class="small-feature "><icon></icon> Administration</span>
+                <h3>News & Updates</h3>
+                <div class="new">
+                    <div class="date">
+                        Feb
+                        22
+                    </div>
+
+                    <div class="content">
+                        <h4>Gitlab 2.2 released. Better code review & better UI</h4>
+                        <p>We integrated twitter bootrstrap to make UI better. Compare view help you to diff few commits. Fixed some critical bugs &amp; improved usability. Also we added help section to project.</p>
+                    </div>
+                </div>
+                <!-- .new -->
+                <div class="new">
+                    <div class="date">
+                        Jan
+                        22
+                    </div>
+
+                    <div class="content">
+                        <h4>Gitlab 2.1 released. Better UI</h4>
+                        <p>Moving to minimalistic UI, better usability. Improved code review, post-receive hooks, deploy keys and much more in this release.</p>
+                    </div>
+                </div>
+                <!-- .new -->
+
+                <div class="new">
+                    <div class="date">
+                        Dec
+                        22
+                    </div>
+
+                    <div class="content">
+                        <h4>Gitlab 2.0 released. Now with gitolite</h4>
+                        <p>We finally moved from gitosis to gitolite. It’ll allow us to make a lot of useful features in future. Also you'll be able to create merge requests with 2.0</p>
+                    </div>
+                </div>
+                <!-- .new -->
+
+                <div class="new">
+                    <div class="date">
+                        Nov
+                        22
+                    </div>
+
+                    <div class="content">
+                        <h4>Time for gitlab 1.2 release. New design!</h4>
+                        <p>Finally we applyied professional design to gitlab. Checkout blog for screenshots or try demo. But its not only about desing. Checkout blog for more info </p>
+                    </div>
+                </div>
+                <!-- .new -->
 
 
-                                    </div><!-- .more-features -->
+            </div>
 
-			</div>
-    </div>
+            <div class="grid_6">
+                <h3>Features</h3>
+                <div class="feature issues margin">
+                    <h4>Issues, Merge Requests</h4>
+                    <icon></icon>
+                </div>
+                <div class="feature source ">
+                    <h4>Browse Source</h4>
+                    <icon></icon>
+                </div>
+                <div class="key-management feature margin">
+                    <h4>SSH Key Management</h4>
+                    <icon></icon>
+                </div>
+                <div class="feature projects ">
+                    <h4>Manage Projects</h4>
+                    <icon></icon>
+                </div>
+                <div class="more-features">
+                    <span class="small-feature margin"><icon></icon> Merge Requests</span>
+                    <span class="small-feature "><icon></icon> Comments</span>
+                    <span class="small-feature margin"><icon></icon> Control Repository access</span>
+                    <span class="small-feature "><icon></icon> Network Graph</span>
+                    <span class="small-feature margin"><icon></icon> Code snippets</span>
+                    <span class="small-feature "><icon></icon> Administration</span>
+                </div><!-- .more-features -->
 
-  </div> <!--! end of #container -->
+                <h3>Sponsors</h3>
+                <img src="img/brightbox_logo.png">
+            </div>
+        </div>
+
+    </div> <!--! end of #container -->
   <footer>
 		<p>© 2012 gitlabhq.com Inc. All rights reserved.</p>
   </footer>
@@ -173,7 +175,7 @@
   <!-- JavaScript at the bottom for fast page loading -->
 
   <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script src="./js/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
 
 
