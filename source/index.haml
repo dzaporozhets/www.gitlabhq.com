@@ -57,22 +57,6 @@ layout: promo
       .content
         %h4 Gitlab 2.4 released. Accept MR button
         %p Milestones, Accept MR, Responsive layout and much more.
-    / .new
-    .new
-      .date
-        Mar
-        22
-      .content
-        %h4 Gitlab 2.3 released.
-        %p Mysql support, Improved merge requests, Dashboard page, Search and much more in new release.
-    / .new
-    .new
-      .date
-        Feb
-        22
-      .content
-        %h4 Gitlab 2.2 released. Better code review & better UI
-        %p We integrated twitter bootrstrap to make UI better. Compare view help you to diff few commits. Fixed some critical bugs & improved usability. Also we added help section to project.
   .grid_6
     %h3 Features
     .feature.issues.margin
@@ -114,28 +98,41 @@ layout: promo
         Issues
     / .more-features
     %br/
-    %h3 Sponsors
+    %h3 Sponsors:
     %hr/
-    %img{:src => "http://blog.gitlabhq.com/images/brightbox_logo.png"}
+    %div
+      %img{:src => "http://blog.gitlabhq.com/images/brightbox_logo.png"}
 
-    %h3 Social
-    %hr/
+  .clearfix
+  %h3 Who is already use GITLAB?
+  %hr/
+  %div.companies_holder
+    %img{:src => "./images/companies/phusion.png"}/
+    %img{:src => "./images/companies/brightbox.png"}/
+    %img{:src => "./images/companies/solidstategroup.png"}/
+    %img{:src => "./images/companies/lovata.jpg"}/
+    %img{:src => "./images/companies/devsu.jpg"}/
+    %img{:src => "./images/companies/required.png"}/
+    %img{:src => "./images/companies/tr.png"}/
+    %img{:src => "./images/companies/11331-8449.jpg"}/
+  .clearfix
+
+  %hr/
+  %div
     %iframe{ :src => "http://ghbtns.com/github-btn.html?user=gitlabhq&repo=gitlabhq&type=watch&count=true", :allowtransparency => "true", :frameborder => "0", :scrolling => "0", :width => "115px", :height => "20px"}
     %iframe{ :src => "http://ghbtns.com/github-btn.html?user=gitlabhq&repo=gitlabhq&type=fork&count=true", :allowtransparency => "true", :frameborder => "0", :scrolling => "0", :width => "115px", :height => "20px"}
     %a.twitter-follow-button{"data-show-count" => "false", :href => "https://twitter.com/gitlabhq"} Follow @gitlabhq
     :javascript
       !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 
-    %h3 Donation
-    %hr/
-    %p Love GitLab? A donation would help us make a project even better.
-    %a{:href => "http://www.pledgie.com/campaigns/17027"}
-      %img{:alt => "Click here to lend your support to: GitLab HQ and make a donation at www.pledgie.com !", :border => "0", :src => "http://www.pledgie.com/campaigns/17027.png?skin_name=chrome"}/
     &nbsp;
     %a.FlattrButton{:href => "http://gitlabhq.com", :rev => "flattr;button:compact;", :style => "display:none;"}
       %noscript
         %a{:href => "http://flattr.com/thing/813163/GITLAB-Self-Hosted-Git-Management-Application", :target => "_blank"}
           %img{:alt => "Flattr this", :border => "0", :src => "http://api.flattr.com/button/flattr-badge-large.png", :title => "Flattr this"}/
+    &nbsp;
+    %a{:href => "http://www.pledgie.com/campaigns/17027"}
+      %img{:alt => "Click here to lend your support to: GitLab HQ and make a donation at www.pledgie.com !", :border => "0", :src => "http://www.pledgie.com/campaigns/17027.png?skin_name=chrome"}/
 
 :css
   #container {
