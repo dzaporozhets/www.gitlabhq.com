@@ -829,9 +829,12 @@ table  thead .image{width:100px}
 table  tr:hover, .listed_items tr.odd:hover{background-color:#FFFFCF}
 
 .companies_holder { 
+  margin: 0 20px;
   img { 
-    margin:0 10px;
-    max-width:200px;
+    margin:10px;
+    height:40px;
+    border: 1px solid #EEE;
+    padding: 5px;
   }
 }
 
