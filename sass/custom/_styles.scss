@@ -1,0 +1,15 @@
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much
+html { 
+  background:#D5D8DC;
+
+  body > header {
+    a { 
+      background:url(/images/logo.jpg) no-repeat;
+      width: 310px;
+      height: 68px;
+      float: left;
+      text-indent: -9999px;
+    }
+  }
+}
