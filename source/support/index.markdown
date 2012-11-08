@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: promo
 title: "support"
 date: 2012-07-30 14:23
 comments: true
@@ -8,12 +8,23 @@ footer: true
 ---
 
 
-### Have some problems with installation or update? 
+# Support
 
-### Some services we provide:
-* Installation for Debian/Ubuntu (50$)
-* Update to latest version
-* Help with existing instance
-* Also we can buy & setup VPS with GITLAB for you
 
-### Just send us email (m@gitlabhq.com)  with subject PAID SUPPORT
+## Business Solutions
+
+Looking for any kind of support? Just send email to [gitlab@sphereinc.com](mailto:gitlab@sphereinc.com).
+
+We can help you with setup, give support, develop new features and even provide training.
+
+Contact us today!
+
+
+## Report a problem
+
+[GitHub](https://github.com/gitlabhq) and [Google Group](https://groups.google.com/group/gitlabhq)  are the best places to get help if you’re stuck
+
+
+## Documentation
+
+[GitHub Wiki](https://github.com/gitlabhq/gitlabhq/wiki) our documentation includes a number of simple step-by-step guides for setup and update

@@ -828,21 +828,40 @@ td, th{ padding: .9em 1em; vertical-align: middle; }
 table  thead .image{width:100px}
 table  tr:hover, .listed_items tr.odd:hover{background-color:#FFFFCF}
 
-.companies_holder {
-  padding: 21px;
-  img {
-    margin:20px;
-    height:35px;
-  }
-}
 
 table.social {
   border:none;
 }
 
-.sponsors_holder {
-  padding: 21px;
+.container_12 {
   img {
-    margin-left:20px;
+    max-width:100%;
+    padding: 3px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 3px #eee;
+  }
+
+  .companies_holder {
+    padding: 21px;
+    img {
+      margin:17px;
+      height:35px;
+      border: none;
+      box-shadow: none;
+    }
+  }
+
+  .sponsors_holder {
+    padding: 21px;
+    img {
+      margin-left: 20px;
+      border: none;
+      box-shadow: none;
+    }
+  }
+
+  > h1 {
+    border-bottom: 1px solid #EEE;
+    line-height: 60px;
   }
 }
