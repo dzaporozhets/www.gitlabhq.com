@@ -15,6 +15,10 @@ footer: true
 
 [Email](mailto:m@gitlabhq.com) for ideas or propositions
 
+[gitlab@sphereinc.com](mailto:gitlab@sphereinc.com) for business solutions, integration, setup etc.
+  
+If you are looking for git hosting with GitLab - visit this link [http://blog.gitlab.com/contact/](http://blog.gitlab.com/contact/)
+
 ### Dmitriy Zaporozhets
 
 ![avatar](http://www.gravatar.com/avatar/cd857fed2b3d0f453861246f5f0dad1e?s=40&d=identicon)
