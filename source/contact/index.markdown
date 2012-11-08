@@ -7,17 +7,17 @@ sharing: true
 footer: true
 ---
 
-# Contacts
+# Contact
 
-## Gitlab HQ
+### Gitlab HQ
 
 [Twitter](http://twitter.com/#!/gitlabhq) for latest news, releases etc
 
 [Email](mailto:m@gitlabhq.com) for ideas or propositions
 
 [gitlab@sphereinc.com](mailto:gitlab@sphereinc.com) for business solutions, integration, setup etc.
-  
-If you are looking for git hosting with GitLab - visit this link [http://blog.gitlab.com/contact/](http://blog.gitlab.com/contact/)
+ 
+[blog.gitlab.com/contact/](http://blog.gitlab.com/contact/) for GitLab as a service.
 
 ### Dmitriy Zaporozhets
 
